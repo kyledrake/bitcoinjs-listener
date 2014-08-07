@@ -2,9 +2,9 @@
   "name": "bitcoinjs-listener",
   "version": "0.0.1",
   "description": "bitcoinjs-listener ==================",
-  "main": "index.js",
+  "main": "./lib/listener.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha test/*"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kyledrake/bitcoinjs-listener/issues"
   },
-  "homepage": "https://github.com/kyledrake/bitcoinjs-listener"
+  "homepage": "https://github.com/kyledrake/bitcoinjs-listener",
+  "devDependencies": {
+    "mocha": "*"
+  }
 }
