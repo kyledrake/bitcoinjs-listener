@@ -1,0 +1,19 @@
+{
+  "name": "bitcoinjs-listener",
+  "version": "0.0.1",
+  "description": "bitcoinjs-listener ==================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kyledrake/bitcoinjs-listener.git"
+  },
+  "author": "Kyle Drake <kyle@kyledrake.net> (http://kyledrake.net/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyledrake/bitcoinjs-listener/issues"
+  },
+  "homepage": "https://github.com/kyledrake/bitcoinjs-listener"
+}
