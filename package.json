@@ -16,6 +16,10 @@
     "url": "https://github.com/kyledrake/bitcoinjs-listener/issues"
   },
   "homepage": "https://github.com/kyledrake/bitcoinjs-listener",
+  "dependencies": {
+    "bitcoinjs-lib": "*",
+    "bs58check": "*"
+  },
   "devDependencies": {
     "mocha": "*"
   }
