@@ -18,7 +18,8 @@
   "homepage": "https://github.com/kyledrake/bitcoinjs-listener",
   "dependencies": {
     "bitcoinjs-lib": "*",
-    "bs58check": "*"
+    "bs58check": "*",
+    "request": "*"
   },
   "devDependencies": {
     "mocha": "*"
