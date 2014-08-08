@@ -6,7 +6,7 @@ var listener = new Listener({
 	]
 })
 
-listener.listen(['addr'])
+listener.add(['addr'])
 
 listener.on('tx', function(tx) {
 	// listener.getUnspent for update
