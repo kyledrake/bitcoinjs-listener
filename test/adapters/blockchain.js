@@ -6,7 +6,7 @@ describe('Blockchain', function() {
 		it('returns latest', function(done) {
 			var blockchain = new Blockchain()
 			blockchain.getBlockHeight(function(height) {
-				assert.equal(height, 31337)
+				assert(height > 454740)
 				done()
 			})
 		})
